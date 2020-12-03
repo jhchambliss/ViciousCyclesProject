@@ -1,8 +1,7 @@
 <!--
     Jackie Chambliss
-    October 27, 2020
-    Lesson 11
-    GitHub Assignment
+    October 21, 2020
+    Vicious Cycles Project
     index.html
 -->
 
@@ -11,25 +10,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vicious Cycles</title>
-
-    <style>
-        body {
-            background-color: #E7FBFB;
-        }
-
-        header {
-            font-size: 4em;
-            text-align: center;
-            color: #010B5B;
-        }
-    </style>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Vicious Cycles Custom Mountain Bikes and Cycling Accessories</title>
 </head>
 <body>
-    <header>Vicious Cycles</header>
+    <header>
+        <div class="logo"><img src="images/Vicious-Cycle-Logo.png" alt="Vicious Cycles Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+            <div class="nav_line"><img src="images/page_elements/brown_line.png" alt="stylized line at bottom of navigation area"></div>
+        </nav>
+    </header>
     <main>
-        
+        <div class="primary">
+            <h1>We Live to Ride.</h1>
+            <section class="adventure">
+                <div class="climb"><img class="wide" src="images/customizations/tobias-bjerknes-pu40LpUjv5I-unsplash.jpg" alt="Mountain biker on a local trail Anytown">
+                <img class="tall" src="images/customizations/full_body_hard_trail.jpg" alt="Mountain biker catches air while riding a trail in Anytown">
+                <img class="big" src="images/customizations/full_body_light_frame.jpg" alt="Mountain biker catches air while riding a trail in Anytown"></div>
+                <div class="welcome">
+                    <h2>How do you take on your trail?</h2>
+                    <p>Every climb, every descent, every rock, every root ... there is no single type of trail, <strong>why would there be a single type of bike?</strong></p>
+                    <p>Whether you are looking for select bike accessories or a full customization package, at Vicious Cycles, we are committed to providing superior customer service and satisfaction. Our staff will assist you every step of the way, <strong><a href="products.html">from product selection and ordering</a></strong> to truly custom builds</p>
+                    <p>Check out our <strong><a href="gallery.html">Gallery</a></strong> to see how our riders have chosen to customize their rides. Or if you are interested in learning more about our customizations today</p>
+                    <span><a class="request" href="mailto:viciouscycles@ride4life.com">Request More Info</a></span>
+                </div>
+            </section>
+        </div>
+        <div id="secondary">
+            <section class="share" >
+                <h2>Share Your Adventure!</h2>
+                    <p>We know that this year has kept us away from each other, but the trails have been a great place to go for some fresh air and social distancing. We'd love to see where you've taken your Vicious Cycle rides this year. Share shots of your favorite trips, trails, or even tumbles on any of our <a href="#social">social media platforms</a>. And don't forget to #ViciousCycles to show off your custom work!</p>
+            </section>
+            <section class="events">
+                <h2>Come See Our Rides in Action</h2>
+                    <h3><a href="https://gropromotions.com/25-hours-in-frog-hollow/" target="_blank">25 Hours in Frog Hollow</a></h3>
+                        <p class="date">Saturday - Sunday, November 7-8, 2020</p>
+                        <p class="desktop">After being cooped up for most of the spring and staying socially distant for much of the summer, we are packing our bikes and taking off to a two day event in the desert. Well, Dave is staying behind to mind the shop. Thanks, Dave! We might be biting off more than we can chew with this one, but we all just built new rides, and we are stoked to try them out on some pretty rough terrain!</p>
+                    <h3>8th Annual Santa Fun Ride</h3>
+                        <p class="date">Saturday, December 12</p>
+                        <p class="desktop">This event is going to be a lot different this year. Instead of our yearly bike parade, we are encouraging area cyclists to don their most festive Santa suits and enjoy their favorite neighborhood rides. Keep your eyes peeled for Santa sightings and snap a shot of any cycling Santas. Upload the image to any of our <a href="#social">social media platforms</a>, and we will hold a vote on the best Santa suit and the best photo. More information coming soon.</p>
+                    <h3>Winter Showcase</h3>
+                        <p class="date">Friday - Sunday, January 8-10, 2021</p>
+                        <p><em style="color: rgb(122, 31, 31);">This event is currently under review to incorporate virtual events for social distancing purposes.</em></p>
+                        <p class="desktop">Since we don't get out on the trails as much in the winter, we look forward to the Winter Showcase every year as a chance to share our experiences of the rides we had in the summer and fall, plan the first rides of spring, and most of all, help you design the customizations you'd like to make to your bike in the upcoming year. We'll have a lot of new gear to browse through in the store, but you can also special order items online. And don't forget, this is a perfect time to put those gift cards Santa brought you to good use!</p>
+            </section>
+        </div>
+        <div id="showcase">
+            <a href="products.html"><img class="product" src="images/customizations/moderate_trail_red.jpg" alt="Personal customization for moderate terrain difficulty featuring a Mongoose frame"></a>
+            <p class="testamonial">I've always done upgrades one at a time. New handlebars, different shocks. I had never considered having a bike custom built until I literally crashed into Dave on a trail and we started talking bikes. Vicious Cycles has now customized three different bikes for me for all my riding needs. -- Shelly Langford, Hardcore Trail Hound</p><a href="products.html"><img class="product" src="images/products/pexels-dorothy-castillo-2802013.jpg" alt="BTX Pro series easy grip handle bars"></a>
+            <p class="testamonial">I never thought about handle bars much until I had a chance to literally put my hands on the test models Vicious Cycles has set up in their studio. -- Ted Branson, Casual Explorer</p>
+            <a href="products.html"><img class="product" src="images/products/gear_changer_with_tire.jpg" alt="Shimano Crankset"></a>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <!-- Footer on each page includes copyright, email link (all on a single line) -->
+        <div>
+            <a href="mailto:viciouscycles@ride4life.com">viciouscycles@ride4life.com</a> or join our <a href="about.html#contact" class="contact">mailing list</a> &copy;copyright 2020
+        </div>
+        <div id="social">
+            <span><a href="www.twitter.com"><img src="images/social_media_icons/twitter_rounded_square.png" alt="twitter"></a></span>
+            <span><a href="#"><img src="images/social_media_icons/fb_logo_small.png" alt="facebook"></a></span>
+            <span><a href="#"><img src="images/social_media_icons/insta_logo.png" alt="Instagram"></a></span>
+        </div>
+    </footer>
 </body>
 </html>
